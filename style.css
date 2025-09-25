@@ -761,3 +761,50 @@ veth__h31 {
     margin-top: 30px;
   }
 }
+/* Javohirning homeworki */
+
+.people {
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.people__wrapper {
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+}
+.people__Texts {
+}
+.poeple__h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #203686;
+  margin-top: 20px;
+}
+.people__p {
+  color: #203686;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.people__btn {
+  color: #203686;
+  background-color: #FFED32;
+  border-radius: 10px;
+  border: 2px solid #FFED32;
+  margin-top: 200px;
+  padding: 15px 25px;
+}
+.people__images {
+
+}
+.people__ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.p__color{
+  color: #203686;
+  margin-left: 35px;
+}

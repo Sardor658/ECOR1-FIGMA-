@@ -22,7 +22,7 @@ button {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -84,6 +84,11 @@ body {
 .top__ul {
   display: flex;
   gap: 35px;
+}
+
+.top__li:hover{
+  top: 20px;
+  font-size: 25px;
 }
 
 .telegram__whatsapp {
@@ -243,185 +248,84 @@ body {
     max-width: 550px;
   }
 }
-.second {
-  margin-top: 20px;
+
+
+/* ==== Top Section ==== */
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
-.second__ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 35px;
-}
-
-.second__li {
-  padding: 30px 40px;
-  width: 430px;
-  background-color: white;
-  border-radius: 20px;
-}
-
-.second__li3 {
-  padding: 35px 40px;
-  width: 430px;
-  background-color: white;
-  border-radius: 20px;
-}
-
-.li1,
-.li2 {
-  display: flex;
-}
-
-.li__text1 {
-  color: #203686;
-}
-
-.p__small {
-  color: #203686;
-}
-
-.p__picture {
-  margin-top: 25px;
-}
-
-.phone__picture {
-  margin-left: 20px;
-}
-
-.li__text2 {
-  color: #203686;
-  margin-top: 20px;
-}
-
-.p__small2 {
-  color: #203686;
-}
-
-.when {
-  color: #203686;
-  padding: 8px 15px;
-  background-color: #ffed32;
-  border: 2px solid #ffed32;
+.card {
+  background: #fff;
   border-radius: 12px;
-  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card .whatsapp {
+  background: #25D366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.chop__fish {
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.li__text3 {
-  color: #203686;
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-.p__small3 {
-  color: #203686;
+.card .label {
+  display: inline-block;
   margin-top: 10px;
+  background: #FFD700;
+  padding: 5px 10px;
+  border-radius: 6px;
 }
 
-.big__car {
-  margin-top: 20px;
-}
-
-@media (max-width: 1400px) {
-  .second__ul {
-    gap: 50px;
-  }
-}
-.third__big {
-  color: #203686;
-  font-size: 30px;
-  display: flex;
-  justify-content: end;
-  padding-block: 50px;
-}
-
-.third__big2 {
-  color: #203686;
-  font-size: 30px;
-  display: none;
-  padding-block: 50px;
-  justify-content: center;
+/* ==== Products Section ==== */
+.products {
+  padding: 40px 20px;
   text-align: center;
 }
 
-.fish__list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
+.products h2 {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
 
-.fish__list div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
-.fish__item {
-  width: 300px;
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.strong1 {
-  color: #203686;
-  padding-block: 15px;
-  font-size: 21px;
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
-.nostrong {
-  color: #203686;
+.product-card h4 {
+  margin: 10px 0 5px;
 }
 
-.strong2 {
-  color: #203686;
-  padding-block: 15px;
-  font-size: 21px;
+.product-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
 }
 
-.strong3 {
-  color: #203686;
-  width: 200px;
-  padding-block: 15px;
-  font-size: 19px;
-}
 
-.nostrong3 {
-  color: #203686;
-}
-
-.strong4 {
-  color: #203686;
-  padding-block: 15px;
-  font-size: 21px;
-}
-
-.nostrong4 {
-  color: #203686;
-}
-
-@media (max-width: 600px) {
-  .third__big {
-    display: none;
-  }
-  .third__big2 {
-    font-size: 25px;
-    display: flex;
-  }
-}
-@media (max-width: 1000px) {
-  .third__big {
-    justify-content: center;
-    text-align: center;
-  }
-}
 .fish__first {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 120px;
   padding-top: 60px;
@@ -429,7 +333,6 @@ body {
 
 .fish__second {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 120px;
   padding-bottom: 50px;
@@ -778,5 +681,83 @@ veth__h31 {
     font-size: 16px;
     margin: 10px 0 0;
     padding: 0 10px;
+  }
+}
+
+
+
+/* Default (katta ekranlar) siz yozgan kod o‘zgarishsiz */
+.dastavka__wrapper {
+  display: flex;
+  gap: 141px;
+  margin-top: 80px;
+  color: #203686;
+}
+.dastavka__2 {
+  margin-top: 40px;
+}
+.dastavka__menu {
+  margin-top: 20px;
+  display: flex;
+}
+.dastavka__item {
+  font-size: 18px;
+}
+.dastavka__img {
+  margin-top: 40px;
+}
+.dastavka__title {
+  font-size: 40px;
+}
+.dastavka__text1 {
+  display: flex;
+}
+.dastavka__text {
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+/* 🔹 Media query - planshetlar (≤ 992px) */
+@media (max-width: 992px) {
+  .dastavka__wrapper {
+    gap: 60px;
+  }
+
+  .dastavka__title {
+    font-size: 32px;
+  }
+
+  .dastavka__item {
+    font-size: 16px;
+  }
+}
+
+/* 🔹 Media query - telefonlar (≤ 768px) */
+@media (max-width: 1070px) {
+  .dastavka__wrapper {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .dastavka__menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .dastavka__title {
+    font-size: 26px;
+  }
+
+  .dastavka__text {
+    font-size: 16px;
+  }
+
+  .dastavka__img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
   }
 }

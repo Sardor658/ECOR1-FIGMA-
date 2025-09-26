@@ -792,7 +792,7 @@ veth__h31 {
   background-color: #FFED32;
   border-radius: 10px;
   border: 2px solid #FFED32;
-  margin-top: 200px;
+  margin-top: 130px;
   padding: 15px 25px;
 }
 .people__images {
@@ -804,7 +804,21 @@ veth__h31 {
   gap: 30px;
 }
 
+.display{
+  display: none;
+  margin-top: 100px;
+}
+
 .p__color{
   color: #203686;
   margin-left: 35px;
+}
+
+@media(max-width: 890px){
+  .display{
+    display: block;
+  }
+  .people__ul{
+    display: none;
+  }
 }
